@@ -1,0 +1,12 @@
+services:
+  scheduler:
+    volumes:
+      - "D:/filepath:/usr/local/airflow/data/filepath"
+
+  dag-processor:
+    volumes:
+      - "D:/filepath:/usr/local/airflow/data/filepath"
+
+  triggerer:
+    volumes:
+      - "D:/filepath:/usr/local/airflow/data/filepath"

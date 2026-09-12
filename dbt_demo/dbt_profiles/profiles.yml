@@ -1,0 +1,16 @@
+dbt_demo:
+  target: dev
+
+  outputs:
+    dev:
+      type: sqlserver
+      driver: FreeTDS
+      host: host.docker.internal
+      port: 55442
+      user: sa
+      password: niraj21@SSMS
+      database: Capstone
+      schema: dbo
+      threads: 4
+      encrypt: true
+      trust_cert: true
