@@ -10,3 +10,11 @@ services:
   triggerer:
     volumes:
       - "D:/filepath:/usr/local/airflow/data/filepath"
+
+  worker:
+    volumes:
+      - "D:/filepath:/usr/local/airflow/data/filepath"
+
+  webserver:
+    volumes:
+      - "D:/filepath:/usr/local/airflow/data/filepath"

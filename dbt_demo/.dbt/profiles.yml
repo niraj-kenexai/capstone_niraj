@@ -9,7 +9,7 @@ dbt_demo:
       port: 55442
       user: sa
       password: niraj21@SSMS
-      database: Capstone
+      database: BankDB
       schema: dbo
       threads: 4
       encrypt: true

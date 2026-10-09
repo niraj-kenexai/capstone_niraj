@@ -1,0 +1,14 @@
+dbt_demo:
+  outputs:
+    dev:
+      driver: ODBC Driver 17 for SQL Server
+      trust_cert: true
+      database: BankDB
+      schema: dbo
+      host: localhost
+      password: niraj21@SSMS
+      port: 55442
+      threads: 1
+      type: sqlserver
+      user: sa
+  target: dev

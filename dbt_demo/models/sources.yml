@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: bronze
+    database: BankDB
+    schema: bronze
+    tables:
+      - name: Banking_Raw
+        description: "Raw ingested banking dataset containing transactions, customer profiles, accounts, loans, cards, and complaints."
